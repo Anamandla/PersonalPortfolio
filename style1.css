@@ -185,4 +185,45 @@ footer .content h1 span{
     .container {
         padding: 3rem 1rem; /* Adjusted padding for smaller screens */
     }
+
+    .header {
+        font-size: 3rem; /* Decreased font size for header on smaller screens */
+    }
+
+    .image img {
+        max-width: 100%; /* Ensure images are responsive and fit smaller screens */
+    }
+
+    .bio-content {
+        max-width: 100%; /* Ensure bio content is full width on smaller screens */
+        padding: 0 1rem; /* Add padding to the sides for better readability */
+    }
+
+    .experience {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid layout for smaller screens */
+        gap: 1rem; /* Reduced gap between experience cards */
+    }
+
+    .card {
+        padding: 1rem; /* Adjusted padding for experience cards on smaller screens */
+    }
+
+    nav {
+        justify-content: space-between; /* Position logo and button at each end */
+        align-items: center; /* Center align items vertically */
+        gap: 1rem; /* Add spacing between logo and button */
+    }
+
+    .logo {
+        max-width: 30%; /* Adjusted logo size for smaller screens */
+    }
+
+    .links {
+        display: none; /* Hide nav links on smaller screens */
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem; /* Adjusted button padding for smaller screens */
+        font-size: 0.9rem; /* Adjusted button font size for smaller screens */
+    }
 }
