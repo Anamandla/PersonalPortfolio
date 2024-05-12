@@ -46,7 +46,7 @@ function submitForm(event) {
     .then(response => response.text())
     .then(data => {
         console.log(data); // Log the response from the PHP file
-        // Add any additional handling or feedback for the user here
+        
     })
     .catch(error => {
         console.error('Error:', error);
