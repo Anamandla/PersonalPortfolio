@@ -91,32 +91,36 @@ header {
 }
 
 .header {
-    margin-bottom: 2rem;
+   
     color: #fff;
     font-size: 5rem;
     font-weight: 700;
     line-height: 4rem;
+    padding-top: 2rem;
+    text-align: center;
 }
 
-header .content h1 span{
+section .content h1 span{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 
 .image {
     margin-top: 1rem;
+    padding-top: 2rem;
+    text-align: center;
 }
 
 .image img {
-    max-width: 45%;
-    border-radius: 15px; /* Rounded corners for the image */
+    max-width: 35%;
+    border-radius: 700%; /* Rounded corners for the image */
 }
 
 .bio-content {
     max-width: 800px;
     margin: auto;
     margin-top: 1rem;
-    text-align: justify; /* Justified text alignment */
+    text-align: center; /* Justified text alignment */
     line-height: 1.6; /* Increased line height for readability */
 }
 
